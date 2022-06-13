@@ -1,0 +1,48 @@
+{
+  "properties": {
+    "firstName": {
+      "type": "text",
+      "analyzer": "autocomplete",
+      "search_analyzer": "standard",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "lastName": {
+      "type": "text",
+      "analyzer": "autocomplete",
+      "search_analyzer": "standard",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "middleName": {
+      "type": "text",
+      "analyzer": "autocomplete",
+      "search_analyzer": "standard",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "favouriteQuote": {
+      "type": "text",
+      "analyzer": "autocomplete",
+      "search_analyzer": "standard",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    }
+  }
+}
